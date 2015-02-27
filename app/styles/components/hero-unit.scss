@@ -1,0 +1,10 @@
+.hero-unit {
+  & {
+    height: 100vh;
+  }
+
+  & > .wrapper {
+    @extend %vertical-center;
+    text-align: center;
+  }
+}
