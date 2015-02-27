@@ -11,6 +11,9 @@
 $manilla-folder: #FEF1E0;
 $darkness: #3B2E2A;
 
+// media query variables
+$medium-up: rem(640px);
+
 // mixins
 %vertical-center {
   position: relative;
