@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "jquery": "~1.11.1",
-    "normalize.css": "~3.0.2"
+    "normalize.css": "~3.0.2",
+    "neat": "~1.7.1"
   }
 }

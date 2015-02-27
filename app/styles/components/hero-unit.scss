@@ -5,6 +5,10 @@
 
   & > .wrapper {
     @extend %vertical-center;
-    text-align: center;
+    @include outer-container;
+
+    > h1 {
+      @include span-columns(6);
+    }
   }
 }
