@@ -1,14 +1,10 @@
 .hero-unit {
   & {
-    height: 100vh;
+    height: 768px;
   }
 
   & > .wrapper {
     @extend %vertical-center;
     @include outer-container;
-
-    > h1 {
-      @include span-columns(6);
-    }
   }
 }

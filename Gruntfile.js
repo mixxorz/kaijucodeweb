@@ -153,9 +153,7 @@ module.exports = function(grunt) {
     sass: {
       options: {
         loadPath: [
-        'bower_components',
-        'bower_components/bourbon/app/assets/stylesheets',
-        'bower_components/neat/app/assets/stylesheets'
+        'bower_components'
         ]
       },
       dist: {

@@ -1,0 +1,14 @@
+.hero-one {
+  & {
+    text-align: center;
+  }
+
+  & > .jumbo-text {
+    font-size: rem(150px);
+    margin: rem(15px);
+  }
+
+  & > h2:last-child {
+    font-weight: 300;
+  }
+}

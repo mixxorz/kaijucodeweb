@@ -5,11 +5,11 @@
 // endbower
 
 @import "variables";
-@import "bourbon";
-@import "neat";
 
 // Components
+@import "base";
 @import "components/hero-unit";
+@import "components/hero-one";
 
 .browsehappy {
   margin: 0.2em 0;
